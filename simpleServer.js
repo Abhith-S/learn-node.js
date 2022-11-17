@@ -33,3 +33,8 @@ server.listen(port,host,(error) =>{
     console.log('server is listening on '+host+':'+port);
 
 });
+
+
+//To start server (on terminal) : node simpleServer.js
+
+//Then on browser go to 127.0.0.1:3000 or localhost:3000.
