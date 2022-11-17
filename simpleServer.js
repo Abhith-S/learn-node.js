@@ -9,7 +9,7 @@ var host = '127.0.0.1';
 //createServer() takes 2 arguements request,response and uses arrow function
 var server = http.createServer((request,response) => {
 
-    //writeHead sends a status code and MIME type to client
+    //writeHead sends a status code (200 means 'OK') and MIME type to client
     //MIME type is to set what kind of content we want to send the client as response
     response.writeHead(200, {"Content-Type" : "text/plain"});
 
