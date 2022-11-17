@@ -1,2 +1,2 @@
-# learn-node.js
-Sample codes with detailed description to learn Node.js
+# Learn Node.js
+Sample codes with detailed description to learn Node.js.
