@@ -10,7 +10,7 @@ var host = '127.0.0.1';
 var server = http.createServer((request,response) => {
 
     //writeHead sends a status code (200 means 'OK') and MIME type to client
-    //MIME type is to set what kind of content we want to send the client as response. Here we are sending plain text.
+    //MIME type is send as an object and is to set what kind of content we want to send the client as response. Here we are sending plain text.
     response.writeHead(200, {"Content-Type" : "text/plain"});
 
     //just to show server is up and running
